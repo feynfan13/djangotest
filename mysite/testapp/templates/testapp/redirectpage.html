@@ -1,0 +1,6 @@
+<form action="/testapp/" method="post">
+ {% csrf_token %}
+  <p>姓名：<input type="text" name="name1"></p>
+  <input type="submit" value="确定">
+</form>
+<p>{{head}}<p>
